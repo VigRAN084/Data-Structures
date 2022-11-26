@@ -21,4 +21,8 @@ public class EmptyList<E> extends PolymorphicList<E> {
     public PolymorphicList g(int a, int b) {
         return this;
     }
+    
+    public PolymorphicList f(int n, E m) {
+        return this;
+    }
 }
